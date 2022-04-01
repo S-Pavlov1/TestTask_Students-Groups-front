@@ -1,5 +1,12 @@
 .App {
-  text-align: center;
+  text-align: left;
+  margin-left: 100px;
+}
+
+.my-div {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
 .App-logo {
@@ -11,6 +18,37 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+.my-textArea {
+  margin-top: 20px;
+  resize: none;
+  font-size: 15px;
+  text-align: center;
+  height: 30px;
+  max-width: 200px;
+}
+
+.my-button {
+  font-size: 15px;
+  text-align: center;
+  height: 30px;
+  max-width: 200px;
+}
+
+table, td {
+  height: 30px;
+  border-collapse: collapse;
+  border: black solid 1px;
+  text-align: center;
+}
+
+thead {
+  background-color: lightgray;
+}
+
+tbody {
+  border : medium;
 }
 
 .App-header {
